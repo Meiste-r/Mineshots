@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(220, 236, 182);
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 650px;
+    display:block;
+    background-image:url("pictures/sunset.png");
+    background-position:center;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    }
+    .navtwo{
+    display: inline-block;
+    }
+
+
+
+   input{
+        background-color:bisque;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+ header li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.features figure{
+    margin: auto;
+    display: inline-flex;
+
+}
+.features figure img{
+   height: 150px;
+   border-radius: 25px;
+}
+
+@media screen and (max-width: 1150px) {
+    header{
+        height: 500px;
+    }
+    
+}
+
+
+    
